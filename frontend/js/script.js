@@ -9,7 +9,7 @@ function renderNews(data) {
   data.forEach((news) => {
     const title = document.createElement('h2');
     title.classList.add('news');
-    title.textContent = news.titulo;
+    title.textContent = news.title;
 
     container.appendChild(title);
   });
