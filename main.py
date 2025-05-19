@@ -18,14 +18,14 @@ def extract_data(html):
     data_list.append({ "title": title })
   return data_list
 
-def save_json(data, filepath="./data/news_list.json"):
+def save_data_json(data, filepath="./data/news_list.json"):
   with open(filepath, "w", encoding="utf-8") as file:
     json.dump(data, file, ensure_ascii=False, indent=2)
 
 def main():
   html = fetch_html()
   news_list = extract_data(html)
-  save_json(news_list)
+  save_data_json(news_list)
   print("Arquivo news_list.json gerado com sucesso!")
 
 if __name__ == "__main__":
