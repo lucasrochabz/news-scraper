@@ -16,14 +16,8 @@ function renderNews(data) {
 }
 
 async function loadNews() {
-  try {
-    const data = await fetchNews();
-    renderNews(data);
-  } catch (err) {
-    document.getElementById('article').textContent =
-      'Erro ao carregar notícias.';
-    console.error(err);
-  }
+  const data = await fetchNews();
+  renderNews(data);
 }
 
 loadNews();
