@@ -21,13 +21,13 @@ Este projeto é uma aplicação de extração e exibição de manchetes das últ
 1. Faça o clone do projeto.
 2. Abra o terminal e navegue até a pasta do projeto.
 3. Instale as dependências do Python:
-  ```bash
-  pip install requests beautifulsoup4
-  ```
+   ```bash
+   pip install requests beautifulsoup4
+   ```
 4. Execute o script para gerar o arquivo news_list.json:
-  ```bash
-  python main.py
-  ```
+   ```bash
+   python main.py
+   ```
 <!-- 5. Inicie um servidor HTTP local para visualizar a página.
   - Usando o Live Server (recomendado para quem usa VS Code):
 
