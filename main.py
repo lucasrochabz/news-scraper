@@ -7,7 +7,7 @@ def fetch_html():
   response = requests.get(url)
   return response.text
 
-def extract_news(html):
+def extract_data(html):
   soup = BeautifulSoup(html, "html.parser")
   tags = soup.find_all('h3')[:10]
 
@@ -20,11 +20,11 @@ def extract_news(html):
 
 def save_json(data, filepath="./data/news_list.json"):
   with open(filepath, "w", encoding="utf-8") as file:
-    json.dump(data, file)
+    json.dump(data, file, ensure_ascii=False, indent=2)
 
 def main():
   html = fetch_html()
-  news_list = extract_news(html)
+  news_list = extract_data(html)
   save_json(news_list)
   print("Arquivo news_list.json gerado com sucesso!")
 
