@@ -3,19 +3,26 @@ from bs4 import BeautifulSoup
 import json
 
 def fetch_html():
-  url = 'https://www.uol.com.br'
+  url = 'https://www.globo.com'
   response = requests.get(url)
   return response.text
 
 def extract_data(html):
   soup = BeautifulSoup(html, "html.parser")
-  tags = soup.find_all('h3')[:10]
+  tags = soup.find_all('a', class_="post__link")[:10]
 
   data_list = []
 
   for tag in tags:
-    title = tag.text.strip()
-    data_list.append({ "title": title })
+    href = tag.get('href')
+
+    title_tag = tag.find('h2', class_='post__title')
+    title = title_tag.text.strip()
+
+    data_list.append({ 
+      "title": title,
+      "href": href
+    })
   return data_list
 
 def save_data_json(data, filepath="./data/news_list.json"):

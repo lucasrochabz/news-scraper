@@ -7,11 +7,17 @@ function renderNews(data) {
   const container = document.getElementById('article');
 
   data.forEach((news) => {
-    const title = document.createElement('h2');
-    title.classList.add('news');
-    title.textContent = news.title;
+    const div = document.createElement('div');
+    div.classList.add('news');
 
-    container.appendChild(title);
+    const link = document.createElement('a');
+    link.setAttribute('href', news.href);
+    link.setAttribute('target', '_blank');
+    link.textContent = news.title;
+
+    div.appendChild(link);
+
+    container.appendChild(div);
   });
 }
 
