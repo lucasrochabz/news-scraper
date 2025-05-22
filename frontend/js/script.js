@@ -7,23 +7,23 @@ function renderNews(data) {
   const container = document.getElementById('article');
 
   data.forEach((news) => {
-    const div = document.createElement('div');
-    div.classList.add('news');
+    const aElement = document.createElement('a');
+    aElement.classList.add('news');
+    aElement.setAttribute('href', news.href);
+    aElement.setAttribute('target', '_blank');
 
-    const img = document.createElement('img');
+    const h2Element = document.createElement('h2');
+    h2Element.textContent = news.title;
+
     if (news.img) {
+      const img = document.createElement('img');
       img.setAttribute('src', news.img);
+      aElement.appendChild(img);
     }
 
-    const link = document.createElement('a');
-    link.setAttribute('href', news.href);
-    link.setAttribute('target', '_blank');
-    link.textContent = news.title;
+    aElement.appendChild(h2Element);
 
-    div.appendChild(img);
-    div.appendChild(link);
-
-    container.appendChild(div);
+    container.appendChild(aElement);
   });
 }
 

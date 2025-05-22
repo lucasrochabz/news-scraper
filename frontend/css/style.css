@@ -14,17 +14,6 @@ img {
   width: 100%;
 }
 
-a {
-  font-weight: normal;
-  font-size: 1.2rem;
-  color: #000;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 .header {
   background-color: #d42d2d;
   text-align: center;
@@ -49,6 +38,8 @@ a:hover {
 .news {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
+  color: #000;
   background-color: #fff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.8);
@@ -60,7 +51,13 @@ a:hover {
 .news:hover {
   background-color: #d42d2d;
   color: #fff;
+  text-decoration: underline;
   scale: 1.1;
+}
+
+.news h2 {
+  font-weight: normal;
+  font-size: 1.2rem;
 }
 
 .footer {
