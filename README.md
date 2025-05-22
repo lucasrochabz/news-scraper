@@ -28,10 +28,22 @@ Este projeto é uma aplicação de extração e exibição de manchetes das últ
    ```bash
    python main.py
    ```
-<!-- 5. Inicie um servidor HTTP local para visualizar a página.
-  - Usando o Live Server (recomendado para quem usa VS Code):
+5. Inicie o servidor HTTP local para visualizar a página:
+   ```bash
+   python -m http.server 8000
+   ```
+6. Abra o navegador e acesse:
+   ```bash
+   http://localhost:8000/
+   ```
 
-  - Ou usando o Python (caso não use extensões):
-  ```bash
-  python -m http.server
-  ``` -->
+<!-- 3. Crie e ative um ambiente virtual:
+   ```bash
+   python -m venv venv
+   # venv\Scripts\activate    # Windows
+   source venv/bin/activate  # Linux/macOS
+   ```
+4. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ``` -->
