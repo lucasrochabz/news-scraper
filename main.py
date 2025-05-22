@@ -19,9 +19,13 @@ def extract_data(html):
     title_tag = tag.find('h2', class_='post__title')
     title = title_tag.text.strip()
 
+    img_tag = tag.find('img', )
+    img_src = img_tag.get('src') if img_tag else None
+
     data_list.append({ 
       "title": title,
-      "href": href
+      "href": href,
+      "img": img_src
     })
   return data_list
 

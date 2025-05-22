@@ -9,10 +9,26 @@ body {
   background-color: lightgray;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .header {
   background-color: #d42d2d;
   text-align: center;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   border-bottom: 5px solid #000;
 }
 
@@ -31,9 +47,12 @@ body {
 }
 
 .news {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.8);
+  gap: 0.5rem;
   padding: 1rem;
   transition: 0.3s;
 }
@@ -42,17 +61,6 @@ body {
   background-color: #d42d2d;
   color: #fff;
   scale: 1.1;
-}
-
-a {
-  font-weight: normal;
-  font-size: 1.2rem;
-  color: #000;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .footer {

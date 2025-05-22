@@ -10,11 +10,17 @@ function renderNews(data) {
     const div = document.createElement('div');
     div.classList.add('news');
 
+    const img = document.createElement('img');
+    if (news.img) {
+      img.setAttribute('src', news.img);
+    }
+
     const link = document.createElement('a');
     link.setAttribute('href', news.href);
     link.setAttribute('target', '_blank');
     link.textContent = news.title;
 
+    div.appendChild(img);
     div.appendChild(link);
 
     container.appendChild(div);
