@@ -48,6 +48,8 @@ Este projeto é uma aplicação de extração e exibição de manchetes das últ
    pip install -r requirements.txt
    ``` -->
 
+### Estrutura do projeto
+
 ```bash
 news-scraper/
 ├── data/

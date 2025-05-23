@@ -9,6 +9,7 @@ function renderNews(data) {
   data.forEach((news) => {
     const aElement = document.createElement('a');
     aElement.classList.add('news');
+
     if (news.href) {
       aElement.setAttribute('href', news.href);
       aElement.setAttribute('target', '_blank');
