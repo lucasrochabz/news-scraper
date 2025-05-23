@@ -9,8 +9,10 @@ function renderNews(data) {
   data.forEach((news) => {
     const aElement = document.createElement('a');
     aElement.classList.add('news');
-    aElement.setAttribute('href', news.href);
-    aElement.setAttribute('target', '_blank');
+    if (news.href) {
+      aElement.setAttribute('href', news.href);
+      aElement.setAttribute('target', '_blank');
+    }
 
     const h2Element = document.createElement('h2');
     h2Element.textContent = news.title;

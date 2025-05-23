@@ -1,4 +1,4 @@
-## News Scraper 📰
+## 📰 News Scraper v1.0
 
 Este projeto é uma aplicação de extração e exibição de manchetes das últimas notícias de um portal, utilizando **Python** com **BeautifulSoup** para web scraping e **JavaScript** para renderização dinâmica no navegador.
 
@@ -34,7 +34,7 @@ Este projeto é uma aplicação de extração e exibição de manchetes das últ
    ```
 6. Abra o navegador e acesse:
    ```bash
-   http://localhost:8000/
+   http://localhost:8000
    ```
 
 <!-- 3. Crie e ative um ambiente virtual:
@@ -47,3 +47,25 @@ Este projeto é uma aplicação de extração e exibição de manchetes das últ
    ```bash
    pip install -r requirements.txt
    ``` -->
+
+```bash
+news-scraper/
+├── data/
+│   ├── entertainment_list.json
+│   ├── news_list.json
+│   └── sport_list.json
+│
+├── frontend/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   ├── news.js
+│   │   └── sport.js
+│   │
+│   └── sport.html
+│
+├── index.html
+├── main.py
+└── README.md
+```
