@@ -30,7 +30,7 @@ Este projeto é uma aplicação de extração e exibição de manchetes das últ
    ```
 5. Inicie o servidor HTTP local para visualizar a página:
    ```bash
-   python -m http.server 8000
+   python3 -m http.server 8000
    ```
 6. Abra o navegador e acesse:
    ```bash
