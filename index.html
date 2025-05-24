@@ -10,7 +10,7 @@
 
 <body>
   <header class="header">
-    <h1>📰 News Scraper | Home</h1>
+    <h1>📰 News Scraper</h1>
 
     <nav class="menu">
       <a href="./index.html" class="active">Home</a>
@@ -25,7 +25,10 @@
 
   <footer class="footer">© 2025 News Scraper — Todos os direitos reservados.</footer>
 
-  <script src="./frontend/js/news.js"></script>
+  <script type="module">
+    import { loadNews } from './frontend/js/news.js'
+    loadNews('news')
+  </script>
 </body>
 
 </html>

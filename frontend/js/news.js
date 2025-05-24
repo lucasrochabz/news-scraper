@@ -1,12 +1,13 @@
 async function fetchNews() {
-  const response = await fetch('./data/news_list.json');
+  const response = await fetch('/data/news_list.json');
   return response.json();
 }
 
-function renderNews(data) {
+function renderNews(data, category) {
   const container = document.getElementById('article');
+  const newsList = data[category];
 
-  data.forEach((news) => {
+  newsList.forEach((news) => {
     const aElement = document.createElement('a');
     aElement.classList.add('news');
     if (news.href) {
@@ -29,9 +30,9 @@ function renderNews(data) {
   });
 }
 
-async function loadNews() {
+export async function loadNews(category) {
   const data = await fetchNews();
-  renderNews(data);
+  renderNews(data, category);
 }
 
 loadNews();

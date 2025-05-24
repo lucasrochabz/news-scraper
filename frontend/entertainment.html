@@ -10,12 +10,12 @@
 
 <body>
   <header class="header">
-    <h1>📰 News Scraper | Entretenimento</h1>
+    <h1>📰 News Scraper</h1>
 
     <nav class="menu">
       <a href="../index.html">Home</a>
       <a href="./sport.html">Esporte</a>
-      <a href="./entertainment.html">Entretenimento</a>
+      <a href="./entertainment.html" class="active">Entretenimento</a>
     </nav>
   </header>
 
@@ -25,7 +25,10 @@
 
   <footer class="footer">© 2025 News Scraper — Todos os direitos reservados.</footer>
 
-  <script src="./js/entertainment.js"></script>
+  <script type="module">
+    import { loadNews } from './js/news.js'
+    loadNews('entertainment')
+  </script>
 </body>
 
 </html>
