@@ -30,6 +30,14 @@ img {
   border-bottom: 5px solid #000;
 }
 
+.sport {
+  background-color: #06aa48;
+}
+
+.entertainment {
+  background-color: #ff6700;
+}
+
 .menu {
   display: flex;
   gap: 1rem;

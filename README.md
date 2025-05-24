@@ -52,22 +52,24 @@ Este projeto é uma aplicação de extração e exibição de manchetes das últ
 
 ```bash
 news-scraper/
+├── backend/
+│   └── main.py
+│
 ├── data/
-│   ├── entertainment_list.json
-│   ├── news_list.json
-│   └── sport_list.json
+│   └── news_list.json
 │
 ├── frontend/
 │   ├── css/
 │   │   └── style.css
 │   │
 │   ├── js/
-│   │   ├── news.js
-│   │   └── sport.js
+│   │   └── news.js
 │   │
+│   ├── entertainment.html
 │   └── sport.html
 │
 ├── index.html
-├── main.py
-└── README.md
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
