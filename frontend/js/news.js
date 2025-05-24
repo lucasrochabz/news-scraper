@@ -1,16 +1,19 @@
 async function fetchNews() {
-  const response = await fetch('./data/news_list.json');
+  const response = await fetch('/data/news_list.json');
   return response.json();
 }
 
-function renderNews(data) {
+function renderNews(data, category) {
   const container = document.getElementById('article');
+  const newsList = data[category];
 
-  data.forEach((news) => {
+  newsList.forEach((news) => {
     const aElement = document.createElement('a');
     aElement.classList.add('news');
-    aElement.setAttribute('href', news.href);
-    aElement.setAttribute('target', '_blank');
+    if (news.href) {
+      aElement.setAttribute('href', news.href);
+      aElement.setAttribute('target', '_blank');
+    }
 
     const h2Element = document.createElement('h2');
     h2Element.textContent = news.title;
@@ -27,9 +30,9 @@ function renderNews(data) {
   });
 }
 
-async function loadNews() {
+export async function loadNews(category) {
   const data = await fetchNews();
-  renderNews(data);
+  renderNews(data, category);
 }
 
 loadNews();

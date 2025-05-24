@@ -4,19 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>News Scraper | Jornalismo</title>
-  <link rel="stylesheet" href="./frontend/css/style.css">
+  <title>News Scraper | Esporte</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <header class="header-bg">
+  <header class="header-bg sport">
     <div class="header">
       <h1>📰 News Scraper</h1>
 
       <nav class="menu">
-        <a href="./index.html" class="active">Jornalismo</a>
-        <a href="./frontend/sport.html">Esporte</a>
-        <a href="./frontend/entertainment.html">Entretenimento</a>
+        <a href="../index.html">Jornalismo</a>
+        <a href="./sport.html" class="active">Esporte</a>
+        <a href="./entertainment.html">Entretenimento</a>
       </nav>
     </div>
   </header>
@@ -28,8 +28,8 @@
   <footer class="footer">© 2025 News Scraper — Todos os direitos reservados.</footer>
 
   <script type="module">
-    import { loadNews } from './frontend/js/news.js'
-    loadNews('news')
+    import { loadNews } from './js/news.js';
+    loadNews('sport')
   </script>
 </body>
 
