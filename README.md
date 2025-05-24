@@ -26,7 +26,7 @@ Este projeto é uma aplicação de extração e exibição de manchetes das últ
    ```
 4. Execute o script para gerar o arquivo news_list.json:
    ```bash
-   python main.py
+   python backend/main.py
    ```
 5. Inicie o servidor HTTP local para visualizar a página:
    ```bash

@@ -42,12 +42,9 @@ def main():
   all_data = {}
 
   for category, url in sources.items():
-    try:
-      html = fetch_html(url)
-      data = extract_data(html)
-      all_data[category] = data
-    except Exception as e:
-      print(f"Erro ao processar {category}: {e}")
+    html = fetch_html(url)
+    data = extract_data(html)
+    all_data[category] = data
   
   save_data_json(all_data)
   print('Arquivo all_news.json gerado com sucesso!')
