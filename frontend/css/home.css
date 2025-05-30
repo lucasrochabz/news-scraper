@@ -62,11 +62,8 @@ img {
   color: #fff;
 }
 
-.article {
+.main {
   max-width: 1200px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 4rem;
   margin: 2rem auto;
 }
 
@@ -75,9 +72,15 @@ img {
   padding-bottom: 1rem;
 }
 
+.article {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
 .card {
   display: flex;
-  flex-direction: column;
   gap: 2rem;
 }
 

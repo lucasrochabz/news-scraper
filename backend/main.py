@@ -14,6 +14,8 @@ def extract_data(html):
 
   for tag in tags:
     anchor_tag = tag.find('a', class_='feed-post-link')
+    if not anchor_tag:
+      continue
 
     href = anchor_tag.get('href')
     title = anchor_tag.text.strip()
@@ -36,7 +38,7 @@ def main():
   sources = {
     "news": "https://g1.globo.com",
     "sport": "https://ge.globo.com",
-    "entertainment": "https://gshow.globo.com/",
+    "entertainment": "https://gshow.globo.com",
   }
 
   all_data = {}
