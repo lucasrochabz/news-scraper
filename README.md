@@ -60,16 +60,20 @@ news-scraper/
 │
 ├── frontend/
 │   ├── css/
-│   │   └── style.css
+│   │   ├── category.css
+│   │   ├── global.css
+│   │   └── home.css
 │   │
 │   ├── js/
-│   │   └── news.js
+│   │   ├── category.js
+│   │   └── script.js
 │   │
 │   ├── entertainment.html
+│   ├── journalism.html
 │   └── sport.html
 │
-├── index.html
 ├── .gitignore
+├── index.html
 ├── README.md
 └── requirements.txt
 ```
