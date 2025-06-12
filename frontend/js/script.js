@@ -1,5 +1,5 @@
 const categories = {
-  news: 'Jornalismo',
+  journalism: 'Jornalismo',
   sport: 'Esporte',
   entertainment: 'Entretenimento',
 };
@@ -27,6 +27,7 @@ function renderSections(data, category) {
     const aElement = document.createElement('a');
     aElement.classList.add('card');
     aElement.textContent = item.title;
+    aElement.style.color = `var(--${category}-color)`;
 
     if (item.href) {
       aElement.setAttribute('href', item.href);

@@ -36,7 +36,7 @@ def save_data_json(data, filepath="./data/news_list.json"):
 
 def main():
   sources = {
-    "news": "https://g1.globo.com",
+    "journalism": "https://g1.globo.com",
     "sport": "https://ge.globo.com",
     "entertainment": "https://gshow.globo.com",
   }
