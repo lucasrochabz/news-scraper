@@ -9,7 +9,7 @@ async function fetchNews() {
   return response.json();
 }
 
-function renderCards(data, category) {
+function renderSections(data, category) {
   const container = document.getElementById('article');
 
   const section = document.createElement('section');
@@ -47,9 +47,9 @@ function renderCards(data, category) {
 
 async function loadNews() {
   const data = await fetchNews();
-  renderCards(data, 'news');
-  renderCards(data, 'sport');
-  renderCards(data, 'entertainment');
+  Object.keys(categories).forEach((category) => {
+    renderSections(data, category);
+  });
 }
 
 loadNews();
