@@ -1,7 +1,11 @@
 @import url('./global.css');
 
-.main {
-  max-width: 1200px;
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 650px;
+  padding: 0 2rem;
   margin: 2rem auto;
 }
 
@@ -10,38 +14,28 @@
   padding-bottom: 1rem;
 }
 
-.article {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.section {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
 .news {
   display: flex;
-  gap: 2rem;
-}
-
-.card {
-  display: flex;
   flex-direction: column;
+  color: #000;
   background-color: #fff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.8);
+  gap: 0.5rem;
   padding: 1rem;
   transition: 0.3s;
 }
 
-.card:hover {
+.news:hover {
   background-color: #d42d2d;
   color: #fff;
   text-decoration: underline;
   scale: 1.1;
+}
+
+.news h2 {
+  font-weight: normal;
+  font-size: 1.2rem;
 }
 
 .footer {
@@ -49,13 +43,4 @@
   color: lightgray;
   text-align: center;
   padding: 2rem 0;
-}
-
-@media (max-width: 800px) {
-  .article {
-    padding: 0 2rem;
-  }
-  .news {
-    flex-direction: column;
-  }
 }
