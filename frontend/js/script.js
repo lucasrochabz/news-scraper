@@ -1,3 +1,9 @@
+const categories = {
+  news: 'Jornalismo',
+  sport: 'Esporte',
+  entertainment: 'Entretenimento',
+};
+
 async function fetchNews() {
   const response = await fetch('/data/news_list.json');
   return response.json();
@@ -5,23 +11,27 @@ async function fetchNews() {
 
 function renderCards(data, category) {
   const container = document.getElementById('article');
+
   const section = document.createElement('section');
+  section.classList.add('section');
+
+  const div = document.createElement('div');
+  div.classList.add('news');
+
+  const titleElement = document.createElement('h2');
+  titleElement.textContent = categories[category];
+  section.appendChild(titleElement);
 
   const smallList = data[category].slice(2, 5);
-
   smallList.forEach((item) => {
-    section.classList.add('card');
-
     const aElement = document.createElement('a');
-    aElement.classList.add('news');
+    aElement.classList.add('card');
+    aElement.textContent = item.title;
 
     if (item.href) {
       aElement.setAttribute('href', item.href);
       aElement.setAttribute('target', '_blank');
     }
-
-    const h2Element = document.createElement('h2');
-    h2Element.textContent = item.title;
 
     if (item.img) {
       const img = document.createElement('img');
@@ -29,9 +39,8 @@ function renderCards(data, category) {
       aElement.appendChild(img);
     }
 
-    aElement.appendChild(h2Element);
-    section.appendChild(aElement);
-
+    div.appendChild(aElement);
+    section.appendChild(div);
     container.appendChild(section);
   });
 }
