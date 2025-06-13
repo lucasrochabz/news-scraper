@@ -1,6 +1,6 @@
 ## 📰 News Scraper v1.1.0
 
-![Imagem do projeto]('docs/projeto-news-scraper01.png)
+![Imagem do projeto](docs/projeto-news-scraper01.png)
 
 #### Sobre
 
