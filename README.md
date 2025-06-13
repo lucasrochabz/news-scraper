@@ -24,6 +24,7 @@ Este projeto é uma aplicação de extração e exibição de manchetes das últ
 
    ```bash
    python -m venv venv
+
    # No Windows:
    venv\Scripts\activate
 
@@ -40,7 +41,8 @@ Este projeto é uma aplicação de extração e exibição de manchetes das últ
    python backend/main.py
    ```
 6. Visualize a página no navegador de uma das seguintes formas:
-   Opção 1 – Servidor HTTP local via terminal:
+
+   **Opção 1 – Servidor HTTP local via terminal**:
 
    ```bash
    python3 -m http.server 8000
@@ -48,7 +50,7 @@ Este projeto é uma aplicação de extração e exibição de manchetes das últ
 
    Depois, acesse: http://localhost:8000
 
-   Opção 2 – Live Server (VS Code):
+   **Opção 2 – Live Server (VS Code)**:
 
    - Clique com o botão direito no arquivo index.html e selecione "Open with Live Server".
    - A página será aberta automaticamente no navegador.
