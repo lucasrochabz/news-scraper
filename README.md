@@ -2,7 +2,7 @@
 
 ![Imagem do projeto](docs/projeto-news-scraper01.png)
 
-#### Sobre
+### Sobre
 
 Este projeto é uma aplicação de extração e exibição de manchetes das últimas notícias de um portal, utilizando **Python** com **BeautifulSoup** para web scraping e **JavaScript** para renderização dinâmica no navegador.
 
