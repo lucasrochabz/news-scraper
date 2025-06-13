@@ -30,17 +30,23 @@
 .card {
   display: flex;
   flex-direction: column;
+  align-self: flex-start;
   background-color: #fff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.8);
+  gap: 2rem;
   padding: 1rem;
+  overflow: hidden;
   transition: 0.3s;
-  align-self: flex-start;
+}
+
+.card img {
+  margin: -1rem -1rem -1rem -1rem;
+  width: calc(100% + 2rem);
 }
 
 .card:hover {
-  /* background-color: #d42d2d; */
   color: #fff;
   text-decoration: underline;
   scale: 1.1;
