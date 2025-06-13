@@ -60,12 +60,12 @@ news-scraper/
 │
 ├── frontend/
 │   ├── css/
-│   │   ├── category.css
+│   │   ├── department.css
 │   │   ├── global.css
 │   │   └── home.css
 │   │
 │   ├── js/
-│   │   ├── category.js
+│   │   ├── department.js
 │   │   └── script.js
 │   │
 │   ├── entertainment.html

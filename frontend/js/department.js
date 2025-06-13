@@ -3,21 +3,20 @@ async function fetchNews() {
   return response.json();
 }
 
-function renderNews(data, category) {
+function renderNews(data, department) {
   const container = document.getElementById('article');
-  const newsList = data[category];
+  const newsList = data[department];
 
   newsList.forEach((news) => {
     const aElement = document.createElement('a');
-    aElement.classList.add('news');
+    aElement.textContent = news.title;
+    aElement.style.color = `var(--${department}-color)`;
+    aElement.classList.add('card');
 
     if (news.href) {
       aElement.setAttribute('href', news.href);
       aElement.setAttribute('target', '_blank');
     }
-
-    const h2Element = document.createElement('h2');
-    h2Element.textContent = news.title;
 
     if (news.img) {
       const img = document.createElement('img');
@@ -25,13 +24,11 @@ function renderNews(data, category) {
       aElement.appendChild(img);
     }
 
-    aElement.appendChild(h2Element);
-
     container.appendChild(aElement);
   });
 }
 
-export async function loadNews(category) {
+export async function loadNews(department) {
   const data = await fetchNews();
-  renderNews(data, category);
+  renderNews(data, department);
 }

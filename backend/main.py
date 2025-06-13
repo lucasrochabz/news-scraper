@@ -43,10 +43,10 @@ def main():
 
   all_data = {}
 
-  for category, url in sources.items():
+  for department, url in sources.items():
     html = fetch_html(url)
     data = extract_data(html)
-    all_data[category] = data
+    all_data[department] = data
   
   save_data_json(all_data)
   print('Arquivo all_news.json gerado com sucesso!')

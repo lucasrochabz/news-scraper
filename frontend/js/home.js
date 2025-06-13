@@ -1,4 +1,4 @@
-const categories = {
+const departments = {
   journalism: 'Jornalismo',
   sport: 'Esporte',
   entertainment: 'Entretenimento',
@@ -9,7 +9,7 @@ async function fetchNews() {
   return response.json();
 }
 
-function renderSections(data, category) {
+function renderSections(data, department) {
   const container = document.getElementById('article');
 
   const section = document.createElement('section');
@@ -19,15 +19,15 @@ function renderSections(data, category) {
   div.classList.add('news');
 
   const titleElement = document.createElement('h2');
-  titleElement.textContent = categories[category];
+  titleElement.textContent = departments[department];
   section.appendChild(titleElement);
 
-  const smallList = data[category].slice(2, 5);
+  const smallList = data[department].slice(2, 5);
   smallList.forEach((item) => {
     const aElement = document.createElement('a');
     aElement.classList.add('card');
     aElement.textContent = item.title;
-    aElement.style.color = `var(--${category}-color)`;
+    aElement.style.color = `var(--${department}-color)`;
 
     if (item.href) {
       aElement.setAttribute('href', item.href);
@@ -48,8 +48,8 @@ function renderSections(data, category) {
 
 async function loadNews() {
   const data = await fetchNews();
-  Object.keys(categories).forEach((category) => {
-    renderSections(data, category);
+  Object.keys(departments).forEach((department) => {
+    renderSections(data, department);
   });
 }
 
