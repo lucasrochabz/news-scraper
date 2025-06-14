@@ -1,5 +1,5 @@
 async function fetchNews() {
-  const response = await fetch('/data/news_list.json');
+  const response = await fetch('./data/news_list.json');
   return response.json();
 }
 
