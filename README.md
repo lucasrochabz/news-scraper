@@ -1,4 +1,8 @@
-## News Scraper 📰
+## 📰 News Scraper v1.1.0
+
+![Imagem do projeto](docs/projeto-news-scraper01.png)
+
+### Sobre
 
 Este projeto é uma aplicação de extração e exibição de manchetes das últimas notícias de um portal, utilizando **Python** com **BeautifulSoup** para web scraping e **JavaScript** para renderização dinâmica no navegador.
 
@@ -20,30 +24,67 @@ Este projeto é uma aplicação de extração e exibição de manchetes das últ
 
 1. Faça o clone do projeto.
 2. Abra o terminal e navegue até a pasta do projeto.
-3. Instale as dependências do Python:
-   ```bash
-   pip install requests beautifulsoup4
-   ```
-4. Execute o script para gerar o arquivo news_list.json:
-   ```bash
-   python main.py
-   ```
-5. Inicie o servidor HTTP local para visualizar a página:
-   ```bash
-   python -m http.server 8000
-   ```
-6. Abra o navegador e acesse:
-   ```bash
-   http://localhost:8000/
-   ```
+3. Crie e ative um ambiente virtual:
 
-<!-- 3. Crie e ative um ambiente virtual:
    ```bash
    python -m venv venv
-   # venv\Scripts\activate    # Windows
-   source venv/bin/activate  # Linux/macOS
+
+   # No Windows:
+   venv\Scripts\activate
+
+   # No Linux/macOS:
+   source venv/bin/activate
    ```
+
 4. Instale as dependências:
    ```bash
    pip install -r requirements.txt
-   ``` -->
+   ```
+5. Execute o script para gerar o arquivo news_list.json:
+   ```bash
+   python backend/main.py
+   ```
+6. Visualize a página no navegador de uma das seguintes formas:
+
+   **Opção 1 – Servidor HTTP local via terminal**:
+
+   ```bash
+   python3 -m http.server 8000
+   ```
+
+   Depois, acesse: http://localhost:8000
+
+   **Opção 2 – Live Server (VS Code)**:
+
+   - Clique com o botão direito no arquivo index.html e selecione "Open with Live Server".
+   - A página será aberta automaticamente no navegador.
+
+### Estrutura do projeto
+
+```bash
+news-scraper/
+├── backend/
+│   └── main.py
+│
+├── data/
+│   └── news_list.json
+│
+├── frontend/
+│   ├── css/
+│   │   ├── department.css
+│   │   ├── global.css
+│   │   └── home.css
+│   │
+│   ├── js/
+│   │   ├── department.js
+│   │   └── script.js
+│   │
+│   ├── entertainment.html
+│   ├── journalism.html
+│   └── sport.html
+│
+├── .gitignore
+├── index.html
+├── README.md
+└── requirements.txt
+```

@@ -1,52 +1,108 @@
-[
-  {
-    "title": "Comissão aprova anistia a Dilma por violência sofrida na ditadura militar",
-    "href": "https://cbn.globo.com/brasil/noticia/2025/05/22/comissao-da-anistia-julga-se-dilma-pode-ser-reconhecida-como-anistiada-politica-veja-ao-vivo.ghtml",
-    "img": "https://s2-home-globo.glbimg.com/IufMwn44wFmAsNscSY4RRdrSbL4=/472x200:1234x630/fit-in/515x290/middle/smart/filters:strip_icc():strip_exif()/s.glbimg.com/jo/g1/f/original/2014/10/24/000_mvd6638946.jpg"
-  },
-  {
-    "title": "Decisão concede indenização máxima para a ex-presidente",
-    "href": "https://g1.globo.com/politica/noticia/2025/05/22/comissao-de-anistia-comeca-a-julgar-pedido-da-ex-presidente-dilma-rousseff.ghtml",
-    "img": null
-  },
-  {
-    "title": "'Reconhecimento do sofrimento político', afirma relator",
-    "href": "https://oglobo.globo.com/politica/noticia/2025/05/22/comissao-de-anistia-reconhece-dilma-como-anistiada-politica-e-aprova-indenizacao-mensal-de-r-107-mil.ghtml",
-    "img": null
-  },
-  {
-    "title": "Relembre por que Dilma foi presa e torturada em 1970",
-    "href": "https://valor.globo.com/politica/noticia/2025/05/22/relembre-por-que-dilma-foi-presa-e-torturada-em-1970-pela-ditadura-militar.ghtml",
-    "img": null
-  },
-  {
-    "title": "Sede da CIA sofre tentativa de invasão; diz TV americana",
-    "href": "https://g1.globo.com/mundo/noticia/2025/05/22/sede-da-cia-sofre-tentativa-de-invasao-nos-eua-tv-diz-que-suspeito-foi-baleado.ghtml",
-    "img": "https://s2-home-globo.glbimg.com/RG4kOKEbQmh3q6yvXp6K3x_GPHg=/0x0:4364x2455/fit-in/515x290/middle/smart/filters:strip_icc():strip_exif()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/O/P/TTsLyYQF6K9HyzwfNKaA/aerial-view-of-the-central-intelligence-agency-headquarters-langley-virginia-corrected-and-cropped.jpg"
-  },
-  {
-    "title": "EUA: mortos funcionários da embaixada de Israel",
-    "href": "https://g1.globo.com/mundo/noticia/2025/05/22/baleados-israel-washington-museu-judaico-mortos.ghtml",
-    "img": null
-  },
-  {
-    "title": "PF apura se espiões soviéticos criaram nova geração fictícia",
-    "href": "https://oglobo.globo.com/mundo/noticia/2025/05/22/policia-federal-investiga-se-espioes-sovieticos-deixaram-certidoes-de-nascimento-para-nova-geracao-de-agentes-secretos.ghtml",
-    "img": "https://s2-home-globo.glbimg.com/DTKDD0xwfz5Gwh_o1zkFiFo4oSc=/40x487:965x1006/fit-in/515x290/middle/smart/filters:strip_icc():strip_exif()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/L/e/2d5AFARpSkN2NBE8GNqA/21int-russia-deepcover-grid-superjumbo.webp"
-  },
-  {
-    "title": "Rússia evita resposta: 'Não podemos comentar'",
-    "href": "https://cbn.globo.com/mundo/noticia/2025/05/22/russia-evita-resposta-sobre-reportagem-de-espioes-no-brasil-nao-podemos-comentar.ghtml",
-    "img": null
-  },
-  {
-    "title": "Argentina libera uso de dólares sem declarar origem",
-    "href": "https://g1.globo.com/economia/noticia/2025/05/22/argentina-dolares.ghtml",
-    "img": "https://s2-home-globo.glbimg.com/sMObpG1XJBhRx00d3iC5FlFtx6s=/0x222:2922x1866/fit-in/515x290/middle/smart/filters:strip_icc():strip_exif()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/l/B/f579tTRuSxYfrt6As1bQ/2024-12-09t100239z-1681556636-rc26n4agbpz0-rtrmadp-3-argentina-politics-milei.jpg"
-  },
-  {
-    "title": "Por que Trump quer 'enfraquecer' o dólar?",
-    "href": "https://valorinveste.globo.com/mercados/moedas-e-juros/noticia/2025/05/22/por-que-trump-quer-enfraquecer-o-dolar-e-por-que-isso-pode-dar-muito-errado.ghtml",
-    "img": null
-  }
-]
+{
+  "journalism": [
+    {
+      "title": "Bloqueio vai afetar R$ 7 bilhões em emendas e R$ 24 bilhões dos ministérios",
+      "href": "https://g1.globo.com/economia/noticia/2025/05/29/cortes-vao-afetar-r-7-bilhoes-em-emendas-e-r-24-bilhoes-dos-ministerios.ghtml",
+      "img": "https://s2-g1.glbimg.com/CDOkvYoOzHzUVzFhAQLuhPmEQLo=/0x206:3000x1894/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/l/L/tZuAeNTtCzBZhqM25IcA/54537280927-100662e505-o.jpg"
+    },
+    {
+      "title": "Brasileiros trabalharam 149 dias somente para pagar impostos em 2025",
+      "href": "https://g1.globo.com/jornal-nacional/noticia/2025/05/29/brasileiros-trabalharam-149-dias-somente-para-pagar-impostos-em-2025-revela-levantamento.ghtml",
+      "img": "https://s2-g1.glbimg.com/ZIfefxYoOQ7L2E3mmSpMy5rjJwo=/0x0:1920x1080/540x304/smart/filters:max_age(3600)/http://s01.video.glbimg.com/deo/vi/22/08/13640822"
+    },
+    {
+      "title": "Avião de pequeno porte aterrissa em Jundiaí após falha no trem de pouso",
+      "href": "https://g1.globo.com/sp/sao-paulo/noticia/2025/05/29/aviao-de-pequeno-porte-tem-problema-em-trem-de-pouso-e-tenta-pousar-no-campo-de-marte.ghtml",
+      "img": "https://s2-g1.glbimg.com/KOatCxyQNwelijjrbThNWDSHIUA=/237x73:1625x855/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/d/l/YISSOTQhqxAvGvpAySQA/sp2-limpo-20250529-1830-frame-124247.jpeg"
+    },
+    {
+      "title": "PF marca depoimento de Bolsonaro em inquérito sobre o filho Eduardo",
+      "href": "https://g1.globo.com/politica/blog/camila-bomfim/post/2025/05/29/pf-marca-para-a-proxima-quinta-depoimento-de-bolsonaro-em-inquerito-sobre-o-filho-eduardo.ghtml",
+      "img": "https://s2-g1.glbimg.com/oRgnL6xvL32Sq034GfcFJVaLOc0=/0x295:3000x1983/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/n/n/S7Nb9fQ4CTKuFgCUU2XA/fup20231016087.jpg"
+    },
+    {
+      "title": "Retomada do tarifaço: Trump comemora decisão e faz ataque a juízes",
+      "href": "https://g1.globo.com/economia/noticia/2025/05/29/trump-decisao-que-restabeleceu-tarifaco.ghtml",
+      "img": "https://s2-g1.glbimg.com/QDtTebAikt4ZFpbATaSeo4MIZXY=/518x287:2769x1553/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/m/F/Q3NhElRYuu7gkPOgarDg/2025-05-08t182829z-1665460832-rc2udeaunkuv-rtrmadp-3-usa-trump.jpg"
+    },
+    {
+      "title": "Mega-Sena acumula e prêmio vai a R$ 31 milhões",
+      "href": "https://g1.globo.com/loterias/mega-sena/noticia/2025/05/29/mega-sena-concurso-2869-resultado.ghtml",
+      "img": "https://s2-g1.glbimg.com/5KNx4rQR_wJYr_Ii2vchXdHY6kk=/0x41:984x595/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/v/h/a63SlUQOGvmdTBneEZaA/volantes-loterias-q98a7806-credito-marcelo-brandt-g1.webp"
+    },
+    {
+      "title": "Cupertino diz que dorme bem e que não precisa se desculpar por mortes",
+      "href": "https://g1.globo.com/sp/sao-paulo/noticia/2025/05/29/cupertino-diz-em-julgamento-que-dorme-bem-e-que-nao-precisa-se-desculpar-com-familias-de-vitimas-porque-nao-teria-matado-ninguem.ghtml",
+      "img": "https://s2-g1.glbimg.com/enQ2IyUN_BRkBWtSykwv869kb58=/17x306:655x665/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/A/f/oJIScxQ6WnCyCu7p8tZQ/cupertino-e-amigos-juri-por-caso-das-mortes-de-rafael-miguel-e-familia.jpg"
+    }
+  ],
+  "sport": [
+    {
+      "title": "Knicks fecha 2º quarto na frente do Pacers, no jogo 5 da final da Conferência Leste; siga",
+      "href": "https://ge.globo.com/basquete/nba/ao-vivo/final-da-conferencia-leste-da-nba-20242025-siga-knicks-x-pacers-no-jogo-5.ghtml",
+      "img": "https://s2-ge.glbimg.com/_kqwaCmLZq9JDIXdwSJS1N4PRuw=/0x85:3713x2174/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/P/V/VY1KZNTyCuDhJk38v6gw/gettyimages-2217727736.jpg"
+    },
+    {
+      "title": "▶️ Grêmio perde pênalti, vence Luqueño por 1 a 0, mas vai ao playoff; veja os lances",
+      "href": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2025/05/29/gremio-1-x-0-sportivo-luqueno-na-sul-americana-assista-aos-melhores-momentos.ghtml",
+      "img": "https://s2-ge.glbimg.com/wyOoCTP60CO-2DuBuxEvIivvcvc=/0x172:3050x1888/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/p/C/rsmPliRDi1GMLQ3aNFBQ/000-48l726l.jpg"
+    },
+    {
+      "title": "Fonseca terá número 5 do mundo como próximo rival em Roland Garros",
+      "href": "https://ge.globo.com/tenis/noticia/2025/05/29/joao-fonseca-tera-no-5-do-mundo-como-rival-na-3a-rodada-em-roland-garros.ghtml",
+      "img": "https://s2-ge.glbimg.com/ro58VXtbRyLhaLHmfZVu7EHt91Q=/0x0:2379x1338/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/K/8/QBIfRSSfCtr7NaQL5weg/000-48k49eb.jpg"
+    },
+    {
+      "title": "Botafogo recebe proposta do Nottingham Forest por Igor Jesus",
+      "href": "https://ge.globo.com/futebol/times/botafogo/noticia/2025/05/29/botafogo-recebe-proposta-do-nottingham-forest-por-igor-jesus.ghtml",
+      "img": "https://s2-ge.glbimg.com/h8PU968pfV42HH9TPQrtP_ezXQ0=/0x147:6096x3576/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/m/i/lBA38dQMeIyRH9z4RDiQ/25.jpg"
+    },
+    {
+      "title": "Do trauma à glória: seis anos após morte da filha, Luis Enrique tenta levar o PSG à conquista da Europa",
+      "href": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/noticia/2025/05/29/do-trauma-a-gloria-luis-enrique-supera-morte-da-filha-para-tentar-levar-o-psg-a-conquista-da-europa.ghtml",
+      "img": "https://s2-ge.glbimg.com/OVtoVKPtiP3XIS4M5fX0j9wOwco=/0x503:3284x2350/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/n/S/9jEoB0S5qBzCq606j3CQ/gettyimages-476142110.jpg"
+    },
+    {
+      "title": "Brasil cai em \"grupo da morte\"; veja os rivais do time de Ramon Menezes",
+      "href": "https://ge.globo.com/futebol/mundial-sub-20/noticia/2025/05/29/mundial-sub-20-brasil-cai-em-grupo-da-morte-com-a-espanha-veja-rivais.ghtml",
+      "img": "https://s2-ge.glbimg.com/bjsaVDB45ZCmZ5aWeKi9lzkNcUQ=/0x47:799x496/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/v/H/YiBhF1Q2u8xILMy9GgmQ/54333015940-13791859c3-c.jpg"
+    }
+  ],
+  "entertainment": [
+    {
+      "title": "Veja também no gshow",
+      "href": null,
+      "img": null
+    },
+    {
+      "title": "Assista aos vídeos mais vistos do dia no gshow",
+      "href": "https://gshow.globo.com/videos/playlist/confira-os-videos-mais-vistos-do-dia-do-gshow-globo.ghtml",
+      "img": null
+    },
+    {
+      "title": "Lívia Andrade comenta susto após pouso forçado de avião: 'Em segurança'",
+      "href": "https://gshow.globo.com/cultura-pop/famosos/noticia/livia-andrade-comenta-susto-em-aviao-todos-em-seguranca.ghtml",
+      "img": "https://s2-gshow.glbimg.com/poHAmZkYYQNiS8fIKNRNay0zXQA=/0x0:1600x900/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2025/J/l/V1mm98RECqUnZIuANFOw/livia-andrade-comenta-susto-em-aviao.jpeg"
+    },
+    {
+      "title": "Princesa da Itália fica entre a vida e a morte após acidente de moto",
+      "href": "https://gshow.globo.com/cultura-pop/famosos/noticia/princesa-da-italia-fica-entre-a-vida-e-a-morte-apos-acidente-de-moto.ghtml",
+      "img": "https://s2-gshow.glbimg.com/kA3q4ZrJKbYOJUNGa3mYkJHzpP4=/0x214:1440x1024/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2025/M/R/BfvXjQTKidfNrBC4vBuQ/carolinadebourbon-1748452607-3642606944421783594-5560461730-1-.jpg"
+    },
+    {
+      "title": "Dona de Mim: Vanderson invade a fábrica Boaz e dá de cara com Samuel",
+      "href": "https://gshow.globo.com/novelas/dona-de-mim/vem-por-ai/noticia/dona-de-mim-vanderson-invade-a-fabrica-boaz-e-da-de-cara-com-samuel.ghtml",
+      "img": "https://s2-gshow.glbimg.com/WETONyIyAMzhdL3xSN5IIWagLWM=/0x0:1280x720/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2025/9/n/AP6SAHS1CLpunNy0VMkA/cap-29-samuel-vanderson.png"
+    },
+    {
+      "title": "Ana Maria Braga posta sua 'versão' bebê dando conselhos; veja o vídeo",
+      "href": "https://gshow.globo.com/cultura-pop/famosos/noticia/ana-maria-braga-posta-sua-versao-bebe-dando-conselhos-veja-o-video.ghtml",
+      "img": "https://s2-gshow.glbimg.com/2Po-LIdhMMJ7_gSOnuYpk9jYW4U=/0x182:801x633/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2025/8/R/yoBmAQTL6dTPEjE4T7RA/ana-maria-braga-ia.jpeg"
+    },
+    {
+      "title": "O que é a incompatibilidade genética que impede gravidez de Mariana Rios?",
+      "href": "https://gshow.globo.com/comportamento/saude/noticia/o-que-e-a-incompatibilidade-genetica-que-impede-gravidez-de-mariana-rios.ghtml",
+      "img": "https://s2-gshow.glbimg.com/4pgZ4Km32uxNGTRgsrHH7ss47uc=/0x0:2048x1152/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2025/m/z/UduvesQ2OBbVrzqWUyBA/mariana-rios.png"
+    }
+  ]
+}

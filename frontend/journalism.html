@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Scraper | Jornalismo</title>
+  <link rel="stylesheet" href="./css/department.css">
+</head>
+
+<body>
+  <header class="header-bg journalism">
+    <div class="header">
+      <a href="../index.html">
+        <h1>📰 News Scraper</h1>
+      </a>
+
+      <nav class="menu">
+        <a href="./journalism.html" class="active">Jornalismo</a>
+        <a href="./sport.html">Esporte</a>
+        <a href="./entertainment.html">Entretenimento</a>
+      </nav>
+    </div>
+  </header>
+
+  <article class="article" id="article">
+    <h2 class="subtitle">Últimas notícias</h2>
+  </article>
+
+  <footer class="footer">© 2025 News Scraper — Todos os direitos reservados.</footer>
+
+  <script type="module">
+    import { loadNews } from './js/department.js'
+    loadNews('journalism')
+  </script>
+</body>
+
+</html>

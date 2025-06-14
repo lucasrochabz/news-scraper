@@ -4,22 +4,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>News Scraper</title>
-  <link rel="stylesheet" href="./frontend/css/style.css">
+  <title>News Scraper | Home</title>
+  <link rel="stylesheet" href="./frontend/css/home.css">
 </head>
 
 <body>
-  <header class="header">
-    <h1>📰 News Scraper</h1>
+  <header class="header-bg">
+    <div class="header">
+      <a href="./">
+        <h1>📰 News Scraper</h1>
+      </a>
+
+      <nav class="menu">
+        <a href="./frontend/journalism.html">Jornalismo</a>
+        <a href="./frontend/sport.html">Esporte</a>
+        <a href="./frontend/entertainment.html">Entretenimento</a>
+      </nav>
+    </div>
   </header>
 
-  <article class="article" id="article">
-    <h2 class="subtitle">Últimas notícias</h2>
-  </article>
+  <main class="main">
+    <article class="article" id="article"></article>
+  </main>
 
   <footer class="footer">© 2025 News Scraper — Todos os direitos reservados.</footer>
 
-  <script src="./frontend/js/script.js"></script>
+  <script src="./frontend/js/home.js"></script>
 </body>
 
 </html>
